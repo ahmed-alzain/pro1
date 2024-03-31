@@ -1,0 +1,1432 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+body{
+    width: 100%;
+    height: 7000px;
+  
+ 
+   
+}
+
+.div_home{
+    background-image: url(../images/img-1.jpg);
+    width: 100%;
+    height: 100vh;/*لضبط طول الصفحة حسب الواجهة الظاهرة*/
+   background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+
+}
+
+.div_topbar{
+    background-color: rgb(45, 45, 45);
+    width: 100%;
+    height: 60px;
+   position: fixed;
+opacity: 0.9;
+z-index: 15;
+ 
+}
+
+.div_topbar img{
+    width: 70px;
+    height: 60px;
+    padding-left: 33px;
+    
+}
+
+.ul_topbar li{
+margin-left: 20px;
+
+display: inline-block;
+
+font-size: 22px;
+
+}
+
+.ul_topbar{
+    float: right;
+   padding-right: 50px;
+   padding-top: 15px;
+}
+
+.title_topbar{
+    float: right;
+    color: rgb(255, 255, 255);
+    padding-top: 15px;
+    margin-right: 450px;
+}
+.title_topbar:hover{
+       float: right;
+    color:#1a6f89;
+    padding-top: 15px;
+   margin-right: 460px;
+
+    
+}
+
+.ul_topbar li a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+font-size: 25px;
+
+}
+
+.ul_topbar li a:hover{
+color:rgb(121, 90, 150);
+
+}
+
+.title1_home{
+    color: rgb(255, 255, 255);
+    margin: auto;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+   
+
+width: 900px;
+height: 90px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.title1_home:hover{
+    color:#1a6f89;
+   
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  
+    width: 900px;
+    height: 90px;
+   margin: auto;
+border-radius: 22px;
+margin-bottom: 20px; 
+text-align: center;
+padding-top: 10px;
+}
+
+.title2_home{
+  color: rgb(255, 255, 255);
+   
+    margin: auto;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+width: 800px;
+height: 40px;
+margin-top: 20px;
+}
+
+
+.title2_home:hover{
+color: rgb(121, 90, 150);
+   
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 12px;
+height: 40px;
+width: 500px;
+margin: auto;
+border-radius: 22px;
+margin-top: 20px;
+padding-top: 10px ;
+
+}
+
+
+.button1{
+    width: 100px;
+    height: 50px;
+background-color: rgb(61, 61, 61);
+border-radius: 10px;
+margin-left: 560px;
+border: none;
+margin-top: 10px;
+font-size: 17px;
+font-family:Arial, Helvetica, sans-serif;
+color: rgb(83, 96, 163);
+}
+
+.button2{
+
+    width: 100px;
+    height: 50px;
+background-color:rgb(63, 63, 63);
+border-radius: 10px;
+margin-left: 10px;
+border: none;
+margin-top: 10px;
+font-size: 17px;
+font-family:Arial, Helvetica, sans-serif;
+color: rgb(121, 90, 150);
+}
+
+
+
+.button1:hover{
+    width: 100px;
+    height: 50px;
+background-color: rgb(121, 90, 150);
+border-radius: 10px;
+margin-left: 560px;
+border: none;
+margin-top: 10px;
+font-size: 17px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #ffffff;
+
+}
+
+.button2:hover{
+    width: 100px;
+    height: 50px;
+background-color:#1a6f89;
+border-radius: 10px;
+margin-left: 10px;
+border: none;
+margin-top: 10px;
+font-size: 17px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+color: #ffffff;
+
+}
+
+
+.div_home{
+    padding-top: 250px;
+}
+
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ */
+.div_home2{
+width: 100%;
+height: 100vh;
+text-align: center;
+position: relative;
+}
+
+.divtitle_home2{
+    padding-top: 150px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.divblock_home2{
+    width: 60px;
+    height: 4px;
+    border-radius: 22px;
+    background-color: black;
+   position: absolute;
+   top: 210px;
+ left: 47%;
+}
+
+/* ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] */
+
+.divtot_home2{
+      width: 80%;
+    margin: auto; /*توسيط العنصر في الوسط*/
+    margin-top: 70px;
+    overflow: auto;
+    position: relative;
+}
+
+.divinf_home2{
+    float: left; /*في الصنف الاب overflow: auto; نضع */
+    width: 30%;
+   
+    text-align: center;
+    padding: 14px  18px; /*عندنا مشكلة انه يعمل ازاحة اضافية لكل ديف مما يؤدي الي نزول الديف الثالث الي سطر جديد*/
+    position: relative;
+    height: 230px;
+ border-radius: 15px ;
+ border: 1px solid black;
+
+}
+
+
+.inf2{
+    margin: 0px 5%;
+}
+
+.divicone{
+    font-size: 50px;
+    color: #1a6f89;
+    margin-bottom: 7px;
+}
+
+.divp_home2{
+    margin: 20px 0px;
+    font-size: 20px;
+    color: rgb(98, 98, 98);
+}
+
+.diva_home2 a{
+ text-decoration: none;
+ font-size: 18px;
+}
+
+.divinf_home2::after{   /*وضع بدائي*/
+position: absolute;  /* لا ننسى البوزيشن ريليتف في الصنف الاب*/
+content: "";
+
+
+width: 0;   /*مكان الظهور*/
+height: 0;  /*مكان الظهور*/
+left: 0;     /*مكان الظهور*/
+top: 0;       /*مكان الظهور*/
+
+
+background-color: rgb(0, 0, 0);
+opacity: 0;
+
+transition: 0.5s;  /*وقت الظهور*/
+border-radius: 15px;
+}
+
+
+.divinf_home2:hover::after{ /*الوضع النهائي*/
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    border-radius: 15px;
+}
+.divvv_home2{
+    position: absolute;
+    z-index: 10;
+}
+
+.divinf_home2:hover .divh2inf_hom2{
+color: #ffffff;
+}
+
+/* ----------------------------------- */
+.divtot_home3{
+    height: 1100px;
+    width: 100%;
+   background-color: rgb(211, 211, 211);
+}
+
+.divtitle_home3{
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.divblock_home3{
+    height: 4px;
+    width: 50px;
+    background-color: black;
+    border-radius: 22px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.divtotal_home3{
+  padding-left: 50px;
+  padding-top: 50px;
+        width: 90%;
+    margin: auto; /*توسيط العنصر في الوسط*/
+    margin-top: 70px;
+    overflow: auto;
+    position: relative;
+   margin-left: 130px;
+
+}
+
+
+.divinfo_home3{
+        float: left; /*في الصنف الاب overflow: auto; نضع */
+    width: 25%;
+    background-color: aliceblue;
+ 
+    text-align: center;
+    padding: 0px  18px; /*عندنا مشكلة انه يعمل ازاحة اضافية لكل ديف مما يؤدي الي نزول الديف الثالث الي سطر جديد*/
+    position: relative;
+    height: 300px;
+ border-radius: 15px ;
+ border: 1px solid black;
+
+}
+
+
+.divinfo22_home3{
+     margin: 0px 5%;
+}
+
+.divinfo_home3{
+    margin-bottom: 70px;
+}
+
+.divinfo_home3 img{
+width: 250px;
+height: 297px;
+}
+
+.divhover_home3{
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+.divinfo_home3:hover .divhover_home3{
+    opacity: 1;
+    
+}
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ */
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+.divinfo_home3::before{ /*الوضع البدائي*/
+position: absolute;  /* لا ننسى البوزيشن ريليتف في الصنف الاب*/
+content: "";
+
+left: 0px;
+
+ margin: auto;
+
+background-color: rgb(0, 0, 0);
+opacity: 0;
+
+transition: 2s;  /*وقت الظهور*/
+border-radius: 15px;
+
+}
+
+.divinfo_home3:hover::before{ /*الوضع النهائي*/
+    width: 100%;
+    height: 100%;
+  transform: scale(1.2,1.2);
+   
+    opacity: 0.7;
+    
+}
+
+.divinfo_home3:hover .divhover_home3{
+color: #c7b9b9;
+transition: 2s;
+padding-top: 50px;
+}
+.divtite2_home3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.divhover_home3 .divicon_home3 a{
+    color: #3f2d76;
+    font-size: 22px;
+    background-color: #10719e;
+    margin: 10px 5px;
+}
+
+.divhover_home3 .divicon_home3 a i{
+margin: 10px 20px;
+}
+
+
+
+
+.divtite1_home3 h2{
+    font-family:Arial, Helvetica, sans-serif;
+font-size: 17px;
+color: #3f2d76;
+}
+
+
+
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ */
+/* home 4 */
+
+.div_home4{
+width: 100%;
+height: 1000px;
+text-align: center;
+position: relative;
+}
+
+.divtitle_home4{
+    padding-top: 150px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.divblock_home4{
+    width: 60px;
+    height: 4px;
+    border-radius: 22px;
+    background-color: black;
+   position: absolute;
+   top: 210px;
+ left: 47%;
+}
+
+/* ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]] */
+
+.divtot_home4{
+      width: 80%;
+    margin: auto; /*توسيط العنصر في الوسط*/
+    margin-top: 70px;
+    overflow: auto;
+    position: relative;
+}
+
+.divinf_home4{
+    float: left; /*في الصنف الاب overflow: auto; نضع */
+    width: 30%;
+   
+    text-align: center;
+    padding: 14px  18px; /*عندنا مشكلة انه يعمل ازاحة اضافية لكل ديف مما يؤدي الي نزول الديف الثالث الي سطر جديد*/
+    position: relative;
+    height: 230px;
+ border-radius: 15px ;
+ border: 1px solid black;
+
+}
+
+
+.inf4{
+    margin: 0px 5%;
+}
+
+.divicon{
+    font-size: 50px;
+    color: rgb(121, 90, 150);
+    margin-bottom: 7px;
+}
+
+.divp_home4{
+    margin: 20px 0px;
+    font-size: 20px;
+    color: rgb(98, 98, 98);
+}
+
+.diva_home4 a{
+ text-decoration: none;
+ font-size: 18px;
+}
+
+.divinf_home4::after{   /*وضع بدائي*/
+position: absolute;  /* لا ننسى البوزيشن ريليتف في الصنف الاب*/
+content: "";
+
+
+width: 0;   /*مكان الظهور*/
+height: 0;  /*مكان الظهور*/
+left: 0;     /*مكان الظهور*/
+top: 0;       /*مكان الظهور*/
+
+
+background-color: rgb(0, 0, 0);
+opacity: 0;
+
+transition: 0.5s;  /*وقت الظهور*/
+border-radius: 15px;
+}
+
+
+.divinf_home4:hover::after{ /*الوضع النهائي*/
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    border-radius: 15px;
+}
+.divvv_home4{
+    position: absolute;
+    z-index: 10;
+}
+
+.divinf_home4:hover .divh4inf_hom4{
+color: #ffffff;
+}
+
+.divinf_home4{
+    margin: 22px  15px;
+  
+}
+
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ */
+/* home 5 */
+
+.div_home5{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+   background-color: rgb(211, 211, 211);
+}
+
+.divtitle1_home5{
+    font-size: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 200px;
+    padding-left: 100px;
+   
+}
+
+.divhr_home5{
+    width: 60px;
+    height: 6px;
+    background-color: #3f2d76;
+    margin-top: 8px;
+  margin-left: 100px;
+   margin-bottom: 40px;
+}
+
+.pre1{
+    font-size: 19px;
+    color: #6d6b6b;
+    font-family:Arial, Helvetica, sans-serif
+}
+.pre2{
+    font-size: 18px;
+    color: #6d6b6b;
+}
+
+.divtitle3_home5 .pre2 i{
+    
+
+    color: #5500ff;
+    width: 20px;
+    height: 20px;
+  border-radius: 22px;
+
+  border: 2px solid #5500ff;
+}
+
+.divimg_home5{
+    width: 300px;
+    height: 350px;
+    background-color: #c2c2c2;
+    position: absolute;
+    top: 200px;
+    right: 120px;
+    
+}
+
+.divimg_home5 img{
+    position: absolute;
+   width: 250px;
+   height: 350px;
+   left: 25px;
+
+}
+
+.divc_home5{
+    width:10px ;
+    height: 10px; 
+    background-color: #3f2d76;
+    border-radius: 50%;
+    float: left;
+}
+.divcercl_home5{
+   width:60px;
+   height: 20px;
+   
+   margin-left: 900px;
+   margin-left: 220px;
+position: absolute;
+bottom: 60px;
+right: 230px;
+}
+.divc2_home5{
+     width:10px ;
+    height: 10px; 
+    background-color: #3f2d76;
+    border-radius: 50%;
+    float: left;
+    margin: 0px 10px;
+   
+}
+
+
+.pre2{
+    line-height: 2;
+    /* المسافة بين الاسطر */
+}
+
+.cir2{
+    background-color: #6d6b6b;
+}
+.cir2:hover{
+background-color: #3f2d76 ;
+}
+
+/* ================================================= */
+/* home6 */
+.divhome6tot{
+    width: 100%;
+    height: 350px;
+    background-image: url(../images/ddd.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+position: relative;
+}
+
+.diviconhome6{
+    width: 100%;
+    height: 200px;
+  
+position: absolute;
+top: 70px;
+
+}
+.divicon1home6{
+  color: #1a6f89;
+    font-size: 40px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 222px;
+
+}
+
+.divtitlehome6{
+    margin-left: 222px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.divtit61{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 180px;
+}
+.divtit62{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 450px;
+}
+
+.divtit63{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 710px;
+}
+.divtit64{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    margin-top: 80px;
+    margin-left: 940px;
+}
+.tit1home6{
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #c4c4c4;
+}
+
+.tit2home6{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #b6b6b6;
+}
+
+/* 000000000000000000000000000000000000000000000000 */
+/* home7 */
+.divhome7{
+    height: 800px;
+    width: 100%;
+    background-color: #f0f0f0;
+    
+}
+.div-titl{
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top:0px;
+    width: 350px;
+    height: 40px;
+    margin-left: 500px;
+   
+}
+.titl{
+    padding-top: 120px;
+}
+
+.divhr{
+    background-color:rgb(113, 132, 200);
+    height: 4px;
+    width: 100px;
+    margin-left: 630px;
+    margin-top: 120px;
+    border-radius: 50px;
+   
+}
+
+.div-titl:hover{
+    color:rgb(113, 132, 200);
+}
+/*\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.divbloc-1{
+   padding: 22px;
+   background-color: #f0f0f0;
+   width: 330px;
+   height: 370px;
+   text-align: center;
+   border: 1px solid  rgb(145, 145, 145);
+   border-radius: 10px;
+   float: left;
+  margin-top: 100px;
+  margin-left: 150px;
+  position: relative;
+}
+
+.divcircal-1{
+    margin:auto;
+    width: 100px;
+    height: 100px;
+    border: 3px solid rgb(113, 132, 200);
+    border-radius: 50%;
+  
+}
+
+.h2bloc-1{
+    color: rgb(145, 145, 145);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.h2circal-1{
+    padding-top: 10px;
+    font-size: 50px;
+}
+
+.h2titilcircal-1{
+    font-size: 15px;
+}
+
+.titldiv-1{
+    color: rgb(145, 145, 145) ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+}
+
+.butdiv-1{
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    color:rgb(113, 132, 200) ;
+    font-size: 15px;
+    border: 3px solid  rgb(113, 132, 200) ;
+    font-size: 15px;
+   background-color: rgb(255, 255, 255);
+}
+
+.divcircal-1:hover{
+    background-color:  rgb(113, 132, 200);
+}
+
+.butdiv-1:hover{
+
+    color:black ;
+    background-color:rgb(113, 132, 200) ;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.divbloc-2{
+   padding: 22px;
+   background-color: #f0f0f0;
+   width: 330px;
+   height: 370px;
+   text-align: center;
+   border: 1px solid  rgb(145, 145, 145);
+   border-radius: 10px;
+   float: left;
+   margin: 100px  30px;
+   position: relative;
+}
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.divbloc-3{
+   padding: 22px;
+   background-color: #f0f0f0;
+   width: 330px;
+   height: 370px;
+   text-align: center;
+   border: 1px solid  rgb(145, 145, 145);
+   border-radius: 10px;
+   float: left;
+   margin-top: 100px;
+   position: relative;
+}
+
+.divbloc-1:hover .h2circal-1 {
+    color: #ff0000;
+}
+.divbloc-2:hover .h2circal-1{
+    color: #ff0000;
+}
+.divbloc-3:hover .h2circal-1{
+    color: #ff0000;
+}
+
+.divbloc-1:hover .h2titilcircal-1{
+    color: #ff0000;
+}
+.divbloc-2:hover .h2titilcircal-1{
+    color: #ff0000;
+}
+.divbloc-3:hover .h2titilcircal-1{
+    color: #ff0000;
+}
+
+.divbloc-1:hover .h2bloc-1{
+    color: #ff0000;
+}
+.divbloc-2:hover .h2bloc-1{
+    color: #ff0000;
+}
+.divbloc-3:hover .h2bloc-1{
+    color: #ff0000;
+}
+/* ]]]]]]]]]]]]]]]]]]]]]]]]] */
+.divbloc-1::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0px;
+top: 0;
+right: 0;
+left: 0;
+
+background-color: #0000007c;
+
+transition: .5s;
+opacity: 0;
+
+}
+.divbloc-1:hover::after{
+    width: 100%;
+    height: 100%;
+opacity: 1;
+border-radius: 10px;
+}
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ */
+.divbloc-2::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0px;
+top: 0;
+right: 0;
+left: 0;
+
+background-color: #0000007c;
+
+transition: .5s;
+opacity: 0;
+
+}
+.divbloc-2:hover::after{
+    width: 100%;
+    height: 100%;
+opacity: 1;
+border-radius: 10px;
+}
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[[[ */
+.divbloc-3::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0px;
+top: 0;
+right: 0;
+left: 0;
+
+background-color: #0000007c;
+
+transition: .5s;
+opacity: 0;
+
+}
+.divbloc-3:hover::after{
+    width: 100%;
+    height: 100%;
+opacity: 1;
+border-radius: 10px;
+}
+
+/* home 8 */
+/* 1 */
+.divhome6tot{
+    width: 100%;
+    height: 350px;
+    background-image: url(../images/ddd.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+position: relative;
+}
+.divimgandtitle_home8{
+    width: 400px;
+    height: 200px;
+   
+    position: absolute;
+    top:120px;
+    left: 220px;
+   
+}
+
+.divimgandtitle_home8 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 10px;
+    border: 4px dashed rgb(59, 90, 140);
+}
+.divtitle_home8{
+    float:right;
+    margin-top: 22px;
+  margin-right: 120px;
+}
+.divtitle_home8 h2{
+    color: #ffffff;
+}
+.divtitle_home8 h3{
+    color: rgb(59, 90, 140);
+}
+.divtit_home8 h2{
+color: #ffffff;
+}
+
+.divtit_home8 h2{
+    font-size: 15px;
+}
+.divtit_home8{
+    margin-left: 22px;
+    margin-top: 10px;
+}
+
+.ddddu{
+     float:right;
+    margin-top: 22px;
+ position: absolute;
+ left: 130px;
+ top: 0;
+
+}
+
+/* 2 */
+
+.divimgandtitle_home8_2{
+    width: 400px;
+    height: 200px;
+   
+    position: absolute;
+    top:120px;
+    left: 800px;
+}
+.divimgandtitle_home8_2 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 10px;
+     border: 4px dashed rgb(59, 90, 140);
+}
+.divtitle_home8{
+    float:right;
+    margin-top: 22px;
+  margin-right: 140px;
+}
+.divtitle_home8 h2{
+    color: #ffffff;
+}
+.divtitle_home8 h3{
+    color: rgb(59, 90, 140);
+}
+.divtit_home8 h2{
+color: #ffffff;
+}
+
+.divtit_home8 h2{
+    font-size: 15px;
+}
+.divtit_home8{
+    margin-left: 22px;
+    margin-top: 10px;
+}
+
+/* home 9 */
+.div_home9{
+    width: 100%;
+    height: 100vh;
+ background-color: #ffffff;
+ padding-top: 130px;
+ 
+}
+.contern9{  /*لتصميم اي شكل فيه مساحة من اليمين ومساحة من اليسار*/
+    width: 80%;
+    margin: auto; /*توسيط العنصر في الوسط*/
+   
+}
+.divtitle_home9{
+    
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.divbloc_home9{
+    height: 4px;
+    width: 80px;
+    background-color: #000000;
+    margin:auto;
+    margin-top: 5px;
+}
+
+.tem-contern9{
+overflow: auto;
+margin-top: 60px;
+}
+.temtot9{
+    float: left; /*في الصنف الاب overflow: auto; نضع */
+    width: 30%;
+    background-color: rgb(189, 189, 189);
+    text-align: center;
+    padding: 14px  18px; /*عندنا مشكلة انه يعمل ازاحة اضافية لكل ديف مما يؤدي الي نزول الديف الثالث الي سطر جديد*/
+    position: relative;
+}
+.tem2{
+    margin: 0  5%;
+}
+
+.div-img9{
+   
+width: 70%;
+margin:auto;
+position: relative;
+}
+
+.div-img9 img{
+    width: 100%;
+}
+
+.div-icon9{
+    position: absolute; /*الايقونات فوق الصورة*/ /*position: relative; يحتاج الصنف الاب */
+
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+background-color: rgba(0, 0,0,0.5);
+
+
+opacity: 0; /*العنصر موجود لكن غير مرئي*/ 
+visibility: hidden; /*العنصر غير موجود*/
+ 
+/*transition: 10s; */    /*وقت الظهور*/ /*تستغرق  في الظهور والاختفاء 10 ثواني*/
+transition: 2s;
+/* لاستطيع الكبس على الايقونات والدخول الي الرابط نتبع الخطوات التالية */
+/* نضع رقم اكبر من كل الطبقات لتظهر الايقونات فوق الطبقات الاخرى */
+/*في نفس الصنف الحالي position: يجب ان يكون موجود  z-index: 10; لاستخدام  */
+z-index: 10;
+}
+
+.temtot9:hover .div-icon9{
+    opacity: 1;
+    visibility: visible;
+   /* transition: 10s;*/   /*transition: 10s;  عندما تكون في الهوفر تختفي مباشرة بعد ابتعاد الماوس*/
+}
+
+.div-icon9 a{
+   display: block;
+  width: 40px;
+  height: 40px;
+  background-color: rgb(99, 99, 161);
+  color: wheat;
+margin-left: auto;   /*من اليسار ازاحة لاخر الصنف الاب*/
+
+   
+}
+
+.div-icon9 a i{
+    line-height: 40px;  /*لتوسيط الايقونات ضمن العرض والطول المحدد*/
+    /* بدون ها الامر تبقى الايقونات في الوسط من اليمين واليسار ولاكن من الاسفل والاعلى غير موجودة في الوسط */
+    font-size: 21px;
+}
+
+.ttt{
+    padding: 10px  0px;
+    text-transform: capitalize;
+}
+
+.ppp{
+    color: rgb(99, 99, 99);
+    text-transform:uppercase;
+   font-weight: bold;  /*خط سميك*/
+}
+
+.temtot9:hover .ttt{
+    color: rgb(255, 255, 255);
+}
+
+.temtot9:hover .ppp{
+color: rgb(99, 99, 161);
+}
+
+
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ */
+/* pusudo elment */
+.temtot9::after{ /*الوضع البدائي*/
+position: absolute;  /* لا ننسى البوزيشن ريليتف في الصنف الاب*/
+content: "";
+
+
+width: 0px;   /*مكان الظهور*/
+height: 0px;  /*مكان الظهور*/
+right: 0;     /*مكان الظهور*/
+top: 0;       /*مكان الظهور*/
+
+
+
+background-color: rgb(0, 0, 0);
+opacity: 0;
+
+transition: 1.5s;  /*وقت الظهور*/
+}
+
+.temtot9:hover::after{ /*الوضع النهائي*/
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+/* [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ */
+/* pusudo elment */
+.temtot9::before{ /*الوضع البدائي*/
+position: absolute;  /* لا ننسى البوزيشن ريليتف في الصنف الاب*/
+content: "";
+
+
+width: 0px;   /*مكان الظهور*/
+height: 0px;  /*مكان الظهور*/
+left: 0;     /*مكان الظهور*/
+bottom:0;       /*مكان الظهور*/
+
+
+
+background-color: rgb(0, 0, 0);
+opacity: 0;
+
+transition: 1.5s;  /*وقت الظهور*/
+}
+
+.temtot9:hover::before{ /*الوضع النهائي*/
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+}
+
+/* home10 */
+
+.new{
+    width: 100%;
+    height: 670px;
+    background-color: rgb(204, 199, 199);
+    position: relative;
+}
+.header-new{
+    width: 20%;
+    height: 50px;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin: auto;
+    text-align: center;
+    position: absolute;
+}
+.header-title-new{
+    font-size: 40px;
+}
+.line-new{
+    width: 80px;
+    height: 4px;
+    background-color: blueviolet;
+    margin: auto;
+    border: 1px solid blueviolet ;
+}
+.container-new{
+  margin: auto;
+    width: 80%;
+    height: auto;
+
+}
+.item{
+    position: relative;
+    margin-top: 16.6%;
+    display: inline-block;
+    width: 30%;
+    height: 490px;
+   
+    border-radius: 8px;
+    padding-left: 20px;
+    
+}
+.item2{
+    margin: 0px 4.2%;
+}
+.new-item-img{
+    width: 230px;
+    height: 260px;
+}
+.img-new{
+    width: inherit;
+    height: inherit;
+}
+.new-item-icons{
+    padding-top: 20px;
+    font-size: 11px ;
+    width: 100%;
+    height: 44px;
+}
+.i-new{
+    color: #1389c0;
+}
+.i-p-new{
+    margin-left: 3px;
+    color: #000;
+    display: inline-block;
+    letter-spacing: 1.5px;
+}
+.i-new2{
+    margin: 0px 10px;
+}
+.new-item-header{
+    transition: .4s;
+    padding-top: 8px;
+    word-spacing: 5px;
+    letter-spacing: 1.5;
+    padding-bottom: 15px;
+}
+.new-item-p{
+    font: 1.15em sans-serif;
+    color: rgb(148, 148, 148);
+    word-spacing: 5px;
+    letter-spacing: 1.5;
+    padding-bottom: 7px;
+    line-height: 1.5;
+}
+.new-item-a{
+    text-decoration: none;
+    font: 1.1em sans-serif;
+    color: #1389c0;
+    position: absolute;
+    z-index: 3;
+    font-family: "Courgette", cursive;
+}    
+.new-item-a:hover{
+    text-decoration: underline;
+    color: #10719e;
+}
+.item::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+
+    top: 0;
+    left: 0;
+    right: 0;
+
+    background-color: #1389c079;
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 1s;
+}
+.item:hover::after{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+    border-radius: 8px;
+}
+/* //////////////////////////////////////////////////////////// */
+.copy{
+    width: 100%;
+    height: 300px;
+    background-color: #1d1d1d;
+    padding-top: 63px;
+}
+.copy-conainer{
+    margin: auto;
+    width: 30%;
+    height: 200px;
+}
+.copy-img{
+    width: 180px;
+    height: 77px;
+    margin: auto;
+    background-color: #1d1d1d;
+}
+.copy-content-img{
+    width: inherit;
+    height: inherit;
+    background-size: cover;
+    padding-bottom: 20px;
+}
+.copy-icons{
+    margin-left:50px ;
+}
+.copy-i{
+    color: #0e0f0f;
+    font-size: 2em;
+    padding-top: 4px;
+}
+.copy-circle-i{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    width: 2.7em;
+    height:2.7em;
+    border-radius: 50%;
+    background-color: #1389c0;
+    margin-left: 3px;
+}
+.copy-p{
+    padding-left: 50px;
+    font-size: .8em;
+    color: grey;
+    padding-top: 22px;
+}
+.copy-circle-i::after{
+position: absolute;
+content: "";
+width: 3em;
+height: 3em;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: #10719e;
+transition: .5s;
+opacity: 0;
+visibility: hidden;
+}
+.copy-circle-i:hover::after{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    opacity: 1;
+    background-color: #10719e2d;
+    visibility: visible;
+}
